@@ -106,7 +106,7 @@ public class MainActivity extends SherlockFragmentActivity {
 	private Intent createShareIntent() {
 		// TODO Auto-generated method stub
 		Intent shareIntent = new Intent(android.content.Intent.ACTION_SEND);
-		shareIntent.setType("text/*");
+		shareIntent.setType("text/plain");
 		shareIntent.putExtra(android.content.Intent.EXTRA_SUBJECT,
 				getString(R.string.text_share_subject));
 		shareIntent.putExtra(android.content.Intent.EXTRA_TEXT,
