@@ -78,13 +78,13 @@ public class MainActivity extends SherlockFragmentActivity {
 			}
 		};
 
-		Tab tab = mActionBar.newTab().setText("Video")
+		Tab tab = mActionBar.newTab().setText("Video").setIcon(R.drawable.ic_video)
 				.setTabListener(tabListener);
 		mActionBar.addTab(tab);
-		tab = mActionBar.newTab().setText("Concert")
+		tab = mActionBar.newTab().setText("Concert").setIcon(R.drawable.ic_film)
 				.setTabListener(tabListener);
 		mActionBar.addTab(tab);
-		tab = mActionBar.newTab().setText("Twitter")
+		tab = mActionBar.newTab().setText("Twitter").setIcon(R.drawable.ic_tweeter)
 				.setTabListener(tabListener);
 		mActionBar.addTab(tab);
 

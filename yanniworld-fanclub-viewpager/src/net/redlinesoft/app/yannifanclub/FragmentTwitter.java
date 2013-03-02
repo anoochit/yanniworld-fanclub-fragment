@@ -45,8 +45,8 @@ public class FragmentTwitter extends SherlockFragment {
 	private HashMap<String, String> map;
 	ListView listItem;
 
-	String url = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20json%20where%20url%3D%22http%3A%2F%2Fsearch.twitter.com%2Fsearch.json%3Fq%3Dyanni%22%20%20&format=json&callback=";
-
+	String url = "http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20json%20where%20url%3D%22http%3A%2F%2Fsearch.twitter.com%2Fsearch.json%3Fq%3D%2523yanni%22&format=json&callback=";
+	
 	@Override
 	public void onCreateOptionsMenu(com.actionbarsherlock.view.Menu menu,
 			MenuInflater inflater) {
